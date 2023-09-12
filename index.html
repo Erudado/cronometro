@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cronômetro</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Cronometro Digital</h1>
+
+        <div class="timer">
+            <div class="time" id="minutos">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="segundos">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="milisegundos">000</div>
+        </div>
+
+        <div class="buttons">
+            <button class="button" id="btnStart">Iniciar</button>
+            <button class="button" id="btnPause">Pause</button>
+            <button class="button" id="btnContinue">Continue</button>
+            <button class="button" id="btnReset">Resetar</button>
+        </div>
+    </div>     
+
+    <script src="./js/cronometro.js"></script>
+</body>
+</html>
